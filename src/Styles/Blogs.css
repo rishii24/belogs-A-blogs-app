@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+.blogPage {
+    padding: 30px 170px;
+  }
+  
+  .blogPageHeader {
+    text-align: center;
+    /* font-family: 'Padauk', sans-serif; */
+    font-family: 'KoHo', sans-serif;
+    letter-spacing: -1px;
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .blogLoading{
+    display: block;
+    width: 100%;
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .blogData {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0;
+  }
+  
+  .blogWindow {
+    min-width: 300px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 38%);;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blogWindow > div {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+  }
+  
+  .blogWindow > img {
+    width: 100%;
+  }
+    
+  .blogWindow > div > h1 {
+    font-size: 25px;
+    letter-spacing: -0.6px;
+    line-height: 1.3em;
+    padding: 10px 0;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .blogWindow > div > h1:hover{
+    text-decoration: underline;
+  }
+  
+  .blogWindow > div > p {
+    font-size: 13px;
+    line-height: 1.6em;
+    color: rgb(90, 90, 90);
+    padding-bottom: 30px;
+  }
+  
+  .sourceName {
+    display: flex;
+    align-items: center;
+  }
+
+  .sourceName > span {
+    display: inline;
+    background: rgba(38, 0, 128, 0.226);
+    font-size: 11px;
+    padding: 5px 6px;
+    /* margin: auto; */
+    color: rgba(0, 11, 43, 0.534);
+    border-radius: 3px;
+  }
+  
+  .sourceName > p {
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 10px;
+    letter-spacing: 0.7px;
+  }
+  
+ 
+
+  .noBlogsHeading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+

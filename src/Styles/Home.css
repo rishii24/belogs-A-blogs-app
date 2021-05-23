@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 86vh;
+  width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .home{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  
+  .homeMessage{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .homeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+  }
+
+  .homeText > h1 {
+    font-size: 50px;
+    width: 80%;
+    line-height: 1em;
+    margin: 10px auto;
+    margin-top: 0;
+    /* font-weight: 900; */
+    color: rgb(17, 17, 17);
+    font-family: 'Pattaya', sans-serif;
+  }
+  
+  .homeText > p {
+    font-family: 'Pattaya', sans-serif;
+    padding: 15px 0;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .loginButton {
+    width: 235px;
+    height: 55px;
+    margin: 15px auto 0px auto;
+    border: none;
+    background: rgb(17, 17, 17);
+    border-radius: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  
+  .loginLogo{
+    margin: 0px 0 -5px 10px;
+    height: 22px;
+  }
+
+  .footer{
+    display: block;
+    position: absolute;
+    top: 95%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px ;
+    width: 100%;
+  }

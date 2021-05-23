@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0px 80px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+  }
+  
+  .navHeading {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Pattaya', sans-serif;
+  }
+  
+  .blogSearch {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    margin: 0px 0px 0px 200px;
+    border-radius: 30px;
+  }
+  
+  .searchInput {
+    height: 40px;
+    width: 60%;
+    padding: 0px 20px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: black; 
+    /* background: rgb(39, 39, 39); */
+    box-shadow: inset 0px 0px 5px 0px rgb(177, 177, 177);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+  
+  .submit {
+    background: rgb(39, 39, 39);
+    height: 40px;
+    width: 100px;
+    font-family: "Inter";
+    font-size: 14px;
+    border: none;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    margin:0 10px 0 2px;
+    padding: 11px 0px;
+    border-radius: 5px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: 0.1s ease-in-out;
+    outline: none;
+  }
+  
+  .navUserData {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+  }
+  
+  .userImg {
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  .signedIn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 13px;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+
+  .logoutButton {
+    margin-right: -50px;
+    margin-left: 40px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    
+  }
+
+  .logoutButton:hover{
+    background-color: rgb(184, 184, 184);
+  }
+  
+  .notSignedIn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+  }
+  
+
+  
+  
