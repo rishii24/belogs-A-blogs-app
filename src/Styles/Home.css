@@ -34,6 +34,7 @@
     align-items: center;
     flex-direction: column;
     width: 600px;
+    transition: all 0.6s ease;
   }
 
   .homeText > h1 {
@@ -56,6 +57,11 @@
     margin: 0 auto;
     font-size: 18px;
   }
+
+  .homeImg{
+    height: 500px;
+    transition: all 0.6s ease;
+  }
   
   .loginButton {
     width: 235px;
@@ -69,6 +75,7 @@
     font-size: 15px;
     font-weight: 900;
     cursor: pointer;
+    transition: all 0.6s ease;
   }
   
   .loginLogo{
@@ -85,3 +92,33 @@
     padding-top: 10px ;
     width: 100%;
   }
+
+
+  @media only screen and (max-width:800px) {
+    .homeText{
+      width: 50vw;
+    }
+
+    .homeImg{
+      height: 250px;
+    }
+    
+    .homeText > h1{
+      margin: auto;
+      font-size: 20px;
+    }
+
+    .homeText > p{
+      font-size: 12px;
+    }
+
+    .loginButton {
+      width: 135px;
+      height: 38px;
+      font-size:12px ;
+    }
+
+    .loginLogo{
+      height: 18px;
+    }
+  }  
