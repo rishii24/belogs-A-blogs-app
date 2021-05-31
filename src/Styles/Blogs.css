@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+
+
 .blogPage {
-    padding: 30px 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+    /* padding: 30px 170px; */
   }
   
   .blogPageHeader {
+    display: inline;
+    width: 100vw;
     text-align: center;
     /* font-family: 'Padauk', sans-serif; */
     font-family: 'KoHo', sans-serif;
@@ -24,8 +34,10 @@
   .blogData {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 70px;
     padding: 40px 0;
+    width: 70vw;
+    
   }
   
   .blogWindow {
@@ -104,3 +116,27 @@
     line-height: 1.5em;
   }
 
+  @media only screen and (max-width:800px) {
+    .blogPage{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100vw;
+      padding: 0;
+    }
+
+     
+  .blogPageHeader {
+    display: inline;
+    width: 100vw;
+    text-align: center;
+  }
+
+    .blogData {
+      grid-gap: 40px;
+      width: 60vw;
+    }
+    
+  } 
