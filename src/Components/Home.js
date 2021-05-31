@@ -21,6 +21,10 @@ const Home = () => {
     }
 
     const isSignedIn = useSelector(selectSignedIn)
+    
+    const googleLoginError = (error) => {
+        console.log("google login error", error);
+      };
 
     return (
         <div className="homePage" style={{ display: isSignedIn ? "none" : "" }}>
@@ -48,7 +52,7 @@ const Home = () => {
                                 )}
 
                                 onSuccess={login}
-                                onFailure={false}
+                                onFailure={googleLoginError}
                                 isSignedIn={true}
                                 cookiePolicy={"single_host_origin"}
                             />
